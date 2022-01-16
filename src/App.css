@@ -1,3 +1,9 @@
 .App-icon {
-  width: 180px;
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+footer {
+  text-align: center;
+  margin: 30px 0;
 }
