@@ -26,9 +26,12 @@ export default function Dictionary(){
     }
     return (
         <div className="Dictionary">
-            <form onSubmit={search}>
+            <section>
+              <form className="Input" onSubmit={search}>
                 <input type="search" placeholder="Search Word" autoFocus={true} onChange={handleKeywordChange}/>
             </form>
+            <span className="hint">Suggested words: hello,love,art</span>  
+            </section>
             <Results results={results} />
         </div>
     );
