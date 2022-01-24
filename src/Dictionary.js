@@ -47,8 +47,9 @@ export default function Dictionary(){
     return (
         <div className="Dictionary">
             <section>
+                <h1 className="header">What are you looking for?</h1>
               <form className="Input" onSubmit={handleSubmit}>
-                <input type="search" placeholder="Search Word" autoFocus={true} onChange={handleKeywordChange}/>
+                <input type="search" placeholder="Search for a Word" autoFocus={true} onChange={handleKeywordChange}/>
             </form>
             <span className="hint">Suggested words: hello,love,art</span>  
             </section>
