@@ -9,7 +9,9 @@
 .Dictionary Input {
   width: 100%;
   padding: 10px;
+  border: 1px solid #f94892;
   border-radius: 5px;
+  color: #333;
 }
 .hint {
   font-size: 13px;
